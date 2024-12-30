@@ -1,7 +1,10 @@
-# Introduction
+
+# Currenct Converter API
+
+## Introduction
 The "Currency Converter" project aims to develop a web and mobile application that allows users to convert currencies using real-time exchange rates. Users will be able to track historical rates, save favorite currency pairs, and set notifications for specific rate changes.
 
-# Objectives
+## Objectives
 * Allow users to create accounts, save currency pairs, and set notifications.
 
 * Provide accurate real-time exchange rates for a wide range of currencies.
@@ -10,7 +13,7 @@ The "Currency Converter" project aims to develop a web and mobile application th
 
 * Support users in setting rate alerts and receiving updates via notifications.
 
-# User Stories
+## User Stories
 1.  As a user, I want to sign up for an account so that I can save my favorite currency pairs.
 
 2.  As a user, I want to convert one currency to another using real-time exchange rates.
@@ -25,9 +28,9 @@ The "Currency Converter" project aims to develop a web and mobile application th
 
 7.  As a user, I want to receive daily updates on exchange rates to stay informed.
 
-# API Endpoints
+## API Endpoints
 
-## User Management
+### User Management
 * POST /signup: Register a new user.
 
 * POST /login: Authenticate a user.
@@ -36,20 +39,20 @@ The "Currency Converter" project aims to develop a web and mobile application th
 
 * PUT /profile: Update user profile and preferences.
 
-## Currency Conversion
+### Currency Conversion
 * GET /convert: Convert an amount from one currency to another using real-time rates.
 
 * GET /reverse: Reverse the currency pair for a new conversion.
 
-## Historical Data
+### Historical Data
 * GET /historical: Get historical exchange rate data for a specified date range.
 
-## Favorite Currency Pairs
+### Favorite Currency Pairs
 * POST /favorites: Save a favorite currency pair.
 
 * GET /favorites: Retrieve saved currency pairs.
 
-## Notifications and Alerts
+### Notifications and Alerts
 * POST /alerts: Set a rate alert for a currency pair.
 
 * GET /alerts: Retrieve active rate alerts.
